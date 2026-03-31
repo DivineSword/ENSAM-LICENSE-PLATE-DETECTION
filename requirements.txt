@@ -1,0 +1,37 @@
+# ============================================================
+# License Plate Recognition System — Python 3.9+
+# ============================================================
+#
+# IMPORTANT — install PyTorch FIRST using the command for your
+# platform (shown in install.bat / install.sh), then run:
+#
+#   pip install -e .
+#
+# or just:
+#   pip install -r requirements.txt
+#
+# ============================================================
+
+# --- PyTorch (CPU) ---
+# CPU-only build — works on any machine without a GPU.
+# Replace cu118/cu121 in install.bat / install.sh for NVIDIA GPU.
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# --- Computer vision ---
+opencv-python>=4.8.0
+pillow>=10.0.0
+ultralytics>=8.0.0          # YOLOv8
+
+# --- OCR ---
+easyocr>=1.7.0
+
+# --- Numerics ---
+numpy>=1.23.0,<2.0.0        # numpy 2.x has breaking changes; keep <2.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+
+# --- Utilities ---
+tqdm>=4.65.0
+python-dotenv>=1.0.0        # reads .env for Firebase credentials

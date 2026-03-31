@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/lpr/__init__.py
+src/lpr/camera/__init__.py
+src/lpr/camera/camera.py
+src/lpr/detection/__init__.py
+src/lpr/detection/detection.py
+src/lpr/ocr/__init__.py
+src/lpr/ocr/ocr.py
+src/lpr/utils/__init__.py
+src/lpr/utils/text_utils.py
+src/lpr_system.egg-info/PKG-INFO
+src/lpr_system.egg-info/SOURCES.txt
+src/lpr_system.egg-info/dependency_links.txt
+src/lpr_system.egg-info/requires.txt
+src/lpr_system.egg-info/top_level.txt

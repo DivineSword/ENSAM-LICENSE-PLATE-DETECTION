@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: lpr-system
+Version: 0.1.0
+Summary: Real-time Moroccan license plate recognition using YOLOv8 and EasyOCR
+Requires-Python: >=3.9
+Requires-Dist: opencv-python>=4.8.0
+Requires-Dist: pillow>=10.0.0
+Requires-Dist: ultralytics>=8.0.0
+Requires-Dist: easyocr>=1.7.0
+Requires-Dist: numpy<2.0.0,>=1.23.0
+Requires-Dist: matplotlib>=3.7.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: python-dotenv>=1.0.0
